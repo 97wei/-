@@ -1,0 +1,119 @@
+body,html{
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+.container{
+    width: 1190px;
+   margin: 0 auto;
+}
+
+article{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.6)
+
+}
+.article-img,.login-list-option{
+    float: left;
+}
+.article-img img{
+    width:200px ;
+    height: 300px;
+}
+.login-list-option{
+    border-right: 1px solid #9e9e9e;
+}
+.login-list-option li{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+     padding: 25px 15px;
+     font-size: 14px;
+}
+.active{
+    background-color: #00af50;
+    color: white;
+}
+/* 登录表单！！！！！！！！！！！！！ */
+.login-form{
+    float: left;
+    width: 399px;
+}
+.login-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.username,
+.password{
+    width: 361px;
+    height: 34px;
+    border: 1px solid #d9d9d9;
+    margin: 25px auto;
+    background-color: #f6f6f6;
+}
+
+.login-form form input {
+    height: 30px;
+    font-size: 14px;
+    color: #9e9e9e;
+    border: none;
+    padding-left: 15px;
+    outline: medium;
+    background-color: #f6f6f6;
+
+}
+.xinfeng,
+.suo {
+    width: 34px;
+    height: 34px;
+    background-color: #f6f6f6;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+}
+
+.login-form #username:hover,
+.login-form #password:hover {
+    border: 1px solid#00af50;
+}
+.login-form button {
+    width: 100%;
+    height: 40px;
+    background-color: #00af50;
+    color: white;
+    border: 1px solid #00af50;
+    outline: medium;
+    margin-top: 11px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 忘记密码 去找回！！！！！！！！！！！！！ */
+.go-find,.go-find a {
+    margin-top: 34px;
+    text-align: center;
+    font-family: '宋体';
+    color: #333333;
+    font-size: 14px;
+}
+
+.go-find a {
+    color: #00af50
+}
+.login-register-bottom {
+    width: 1190px;
+    height: 80px;
+    margin: 20px auto;
+    font-size: 12px;
+    color: black;
+    font-family: Arial;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 12px;
+    font-weight: bolder;
+}
